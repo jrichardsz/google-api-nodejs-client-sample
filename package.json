@@ -5,6 +5,9 @@
   "version": "0.0.1",
   "dependencies": {
     "express": "3.x",
-    "gmail-imap": "latest"
+    "google-api-nodejs-client": "jrichardsz/google-api-nodejs-client#master"
+  },
+  "scripts": {
+    "start": "node demo1.js"
   }
 }
