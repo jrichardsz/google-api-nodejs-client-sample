@@ -80,7 +80,7 @@ Im ready to use!!
 # Endpoints
 
 | Step         | endpoint  |	description  |
-| ------------- |: -----:| -----:|
+| ------------- | -----| -----|
 | 01 : Get oauth code | http://localhost:3000/code |  this will redirect to login or acceptance google form. If no errors, code will be printed
 | 02 : Exchange oauth code for the access_token     | http://localhost:3000/access_token?code=abcdefghi |  abcdefghi must be the value returned in step 1
 | 03 : Exchange oauth access_token for the email  | http://localhost:3000/email?access_token=123456789 |  123456789 must be the value returned in step 2
