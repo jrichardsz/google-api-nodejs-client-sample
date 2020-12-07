@@ -43,19 +43,11 @@ Export this values:
 export CLIENT_ID="****"
 export CLIENT_SECRET="****"
 export REDIRECT_URI="****"
-export SCOPE="****"
+export SCOPE="profile https://www.googleapis.com/auth/userinfo.email"
 export PORT=3000
 ```
 
-scope could be one of these values:
-
-- read
-- profile
-- https://www.googleapis.com/auth/userinfo.email
-
-Note that this value is a kind of **requested permission** : 
-
-Google, can I use your api rest to get the **info (email, name, etc)** of logged in user?
+Note: In this example, with these scopes, google just allow us to read a minimal user information.
 
 # Run
 
